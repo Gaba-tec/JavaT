@@ -4,13 +4,13 @@
 
 - [ ] **Java - Fundamentos**:
       [x] Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.
-  - Conhecer os tipos primitivos
-  - Declarar variáveis, considerando os diferentes tipos
-  - Usar estruturas condicionais ('if', 'else')
-  - Conhecer os operadores de atribuição e comparação
-  - Usar estruturas de repetição e laços ('while', 'for')
-  - Usar funções, passando parâmetros e argumentos
-  - Manipular métodos
+      [x] Conhecer os tipos primitivos
+      [x] Declarar variáveis, considerando os diferentes tipos
+      [x] Usar estruturas condicionais ('if', 'else')
+      [x] Conhecer os operadores de atribuição e comparação
+      [X] Usar estruturas de repetição e laços ('while', 'for')
+      [X] Usar funções, passando parâmetros e argumentos
+      [X] Manipular métodos
   - Manipular arrays e listas
   - Obter dados de uma API
   - Criar construtores

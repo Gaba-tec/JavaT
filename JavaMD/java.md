@@ -11,7 +11,7 @@
       [X] Usar estruturas de repetição e laços ('while', 'for')
       [X] Usar funções, passando parâmetros e argumentos
       [X] Manipular métodos
-  - Manipular arrays e listas
+      [x] Manipular arrays e listas
   - Obter dados de uma API
   - Criar construtores
 - [ ] **Conceitos de Orientação a Objetos**:

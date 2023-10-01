@@ -1,6 +1,11 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import Fundamentos.licoes.Aluno;
 import Fundamentos.licoes.test01;
-
+import Fundamentos.licoes.Calculo;
+import Fundamentos.Estrutura_Dados.Dynamic;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
@@ -43,6 +48,44 @@ public class App {
             System.out.println("BURRO DEMAIS, VAI ESTUDAR");
         }
         
+
+        for(int x = 1; x <= 100; x++){
+            if(x % 3 == 0)
+            {
+                System.out.println(x);
+            }
+        }
+
+        Calculo calculo = new Calculo();
+
+        calculo.Fatorial(24);
+
+        List<List<Integer>> queries = Arrays.asList(Arrays.asList(1,0,5),
+                                        Arrays.asList(1,1,7),
+                                        Arrays.asList(1,0,3),
+                                        Arrays.asList(2,1,0),
+                                        Arrays.asList(2,1,1));
+
+        
+        Dynamic dynamic = new Dynamic();
+
+        System.out.print(dynamic.DynamicArray(2, queries));
+
+
+
+        List<Integer> queries2 = new ArrayList<>();
+
+        //queries2.add(1);
+        //queries2.add(2);
+
+        //queries.add(queries2);
+
+        /* 
+        for (List<Integer> lista : queries) 
+        {
+            System.out.println(lista);
+        }
+        */
 
     }
 }

@@ -1,11 +1,14 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 import Fundamentos.licoes.Aluno;
 import Fundamentos.licoes.test01;
 import Fundamentos.licoes.Calculo;
 import Fundamentos.Estrutura_Dados.Dynamic;
+import Fundamentos.Busca_Cep.Endereco;
+import Fundamentos.Busca_Cep.ServicoDeCep;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
@@ -87,5 +90,13 @@ public class App {
         }
         */
 
+        System.out.print("Informe seu CEP: ");
+        String cep = new Scanner(System.in).nextLine();
+        Endereco endereco = ServicoDeCep.buscaEndereco(cep);
+
+
+        System.out.println("Logradouro: " + endereco.getLogradouro());
+        System.out.println("Bairro " + endereco.getBairro());
+        System.out.println("Localidade " + endereco.getLocalidade());
     }
 }

@@ -1,6 +1,7 @@
 package Fundamentos.Estrutura_Dados;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Dynamic {
@@ -39,5 +40,21 @@ public class Dynamic {
         }
 
         return lastAnswers;
+    }
+
+    public List<Integer> rotateLeft(int d, List<Integer> arr)
+    {
+        int x = 0;
+        while(x < d)
+        {
+            for(int i = 0; i < arr.size() - 1; i++)
+            {
+                Collections.swap(arr,i,i+1);
+            }
+
+            x++;
+        }
+
+        return arr;
     }
 }

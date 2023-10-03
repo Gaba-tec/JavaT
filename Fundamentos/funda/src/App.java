@@ -72,7 +72,7 @@ public class App {
         
         Dynamic dynamic = new Dynamic();
 
-        System.out.print(dynamic.DynamicArray(2, queries));
+        //System.out.print(dynamic.DynamicArray(2, queries));
 
 
 
@@ -89,14 +89,15 @@ public class App {
             System.out.println(lista);
         }
         */
+        
+        List<Integer> arr = new ArrayList<>();
 
-        System.out.print("Informe seu CEP: ");
-        String cep = new Scanner(System.in).nextLine();
-        Endereco endereco = ServicoDeCep.buscaEndereco(cep);
+        arr.add(1);
+        arr.add(2);
+        arr.add(3);
+        arr.add(4);
+        arr.add(5);
 
-
-        System.out.println("Logradouro: " + endereco.getLogradouro());
-        System.out.println("Bairro " + endereco.getBairro());
-        System.out.println("Localidade " + endereco.getLocalidade());
+        System.out.println(dynamic.rotateLeft(4, arr));
     }
 }

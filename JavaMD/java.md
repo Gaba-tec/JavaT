@@ -2,7 +2,7 @@
 
 ## Nivel 1
 
-- [ ] **Java - Fundamentos**:
+- [x] **Java - Fundamentos**:
       [x] Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.
       [x] Conhecer os tipos primitivos
       [x] Declarar variáveis, considerando os diferentes tipos
@@ -12,15 +12,15 @@
       [X] Usar funções, passando parâmetros e argumentos
       [X] Manipular métodos
       [x] Manipular arrays e listas
-  - Obter dados de uma API
-    [x] Criar construtores
+      [x] Obter dados de uma API
+      [x] Criar construtores
 - [ ] **Conceitos de Orientação a Objetos**:
-  - A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
-  - Como funcionam objetos
-  - Criar e utilizar construtores
-  - O que são classes
-  - Criar e utilizar métodos
-  - Como funciona encapsulamento
+      [x] A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
+      [x] Como funcionam objetos
+      [x] Criar e utilizar construtores
+      [x] O que são classes
+      [x] Criar e utilizar métodos
+      [x] Como funciona encapsulamento
   - O que é herança
   - O que é polimorfismo
   - Como funcionam interfaces

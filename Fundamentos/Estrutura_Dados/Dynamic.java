@@ -57,4 +57,37 @@ public class Dynamic {
 
         return arr;
     }
+
+
+    /**
+     * @param stringList
+     * @param queries
+     * @return
+     */
+    public  List<Integer> matchingStrings(List<String> stringList, List<String> queries) {
+        
+            List<Integer> resuList = new ArrayList<Integer>();
+            int totalizador = 0;
+
+            for(int i = 0; i < queries.size(); i++)
+            {
+                for(int j = 0; j < stringList.size(); j++)
+                {
+
+                    if(stringList.get(j).equals(queries.get(i)))
+                    {
+                        totalizador++;
+                    }
+
+                }
+
+                resuList.add(totalizador);
+                totalizador = 0;
+            }
+
+            return resuList;
+        }
+    
+
+
 }

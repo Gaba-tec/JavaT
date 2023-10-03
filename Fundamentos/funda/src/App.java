@@ -100,4 +100,6 @@ public class App {
 
         System.out.println(dynamic.rotateLeft(4, arr));
     }
+
+    
 }

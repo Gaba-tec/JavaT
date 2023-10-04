@@ -14,17 +14,17 @@
       [x] Manipular arrays e listas
       [x] Obter dados de uma API
       [x] Criar construtores
-- [ ] **Conceitos de Orientação a Objetos**:
+- [x] **Conceitos de Orientação a Objetos**:
       [x] A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
       [x] Como funcionam objetos
       [x] Criar e utilizar construtores
       [x] O que são classes
       [x] Criar e utilizar métodos
       [x] Como funciona encapsulamento
-  - O que é herança
-  - O que é polimorfismo
-  - Como funcionam interfaces
-  - O que são abstrações
+      [x] O que é herança
+      [x] O que é polimorfismo
+      [x] Como funcionam interfaces
+      [x] O que são abstrações
 - [ ] **Java - Manipulação de Erros**:
   - O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.
   - Tratar exceções pré-definidas

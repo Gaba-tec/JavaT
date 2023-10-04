@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+import java.util.HashMap;
 
 import Fundamentos.licoes.Aluno;
 import Fundamentos.licoes.test01;
@@ -9,6 +10,7 @@ import Fundamentos.licoes.Calculo;
 import Fundamentos.Estrutura_Dados.Dynamic;
 import Fundamentos.Busca_Cep.Endereco;
 import Fundamentos.Busca_Cep.ServicoDeCep;
+import Fundamentos.Estrutura_Dados.*;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
@@ -99,7 +101,36 @@ public class App {
         arr.add(5);
 
         System.out.println(dynamic.rotateLeft(4, arr));
-    }
 
+
+        List<String> strings = new ArrayList<String>();
+        List<String> querieStrings = new ArrayList<String>();
+
+        strings.add("abcde");
+        strings.add("sdaklfj");
+        strings.add("asdjf");
+        strings.add("na");
+        strings.add("basdn");
+        strings.add("sdaklfj");
+        strings.add("asdjf");
+        strings.add("na");
+        strings.add("asdjf");
+        strings.add("na");
+        strings.add("basdn");
+        strings.add("sdaklfj");
+        strings.add("asdjf");
+        
+
+        querieStrings.add("abcde");
+        querieStrings.add("sdaklfj");
+        querieStrings.add("asdjf");
+        querieStrings.add("na");
+        querieStrings.add("basdn");
+
+        HashE hashTestes = new HashE();
+
+        hashTestes.comparaLista(strings, querieStrings);
+
+    }
     
 }

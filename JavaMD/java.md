@@ -25,15 +25,15 @@
       [x] O que é polimorfismo
       [x] Como funcionam interfaces
       [x] O que são abstrações
-- [ ] **Java - Manipulação de Erros**:
-  - O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.
-  - Tratar exceções pré-definidas
-  - Uso de 'try' e 'catch'
-  - Criar exceções específicas
-  - Fazer o processo de Debug
+- [x] **Java - Manipulação de Erros**:
+      [x] O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.
+      [x] Tratar exceções pré-definidas
+      [x] Uso de 'try' e 'catch'
+      [x] Criar exceções específicas
+      [x] Fazer o processo de Debug
 - [ ] **Java - Coleções**:
-  - Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
-  - Aprender os usos e diferenças entre List, Set e Map
+      [x] Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
+      [x] Aprender os usos e diferenças entre List, Set e Map
   - Aprender os usos e diferenças entre Equals e HashCode
   - Saiba trabalhar com ArrayList, LinkedList ou Vector
   - Classes Wrappers
@@ -44,10 +44,10 @@
   - Usar testes de comportamento (behavior)
   - Usar mocks
 - [ ] **Java - Pacotes**:
-  - Um pacote (package) em Java é usado para agrupar classes relacionadas, de forma semelhante a uma pasta em um diretório de arquivos. Os pacotes são usados para evitar conflitos de nomes e para escrever um código de melhor manutenção.
-  - Use imports e organize o seu código através de packages
+      [x] Um pacote (package) em Java é usado para agrupar classes relacionadas, de forma semelhante a uma pasta em um diretório de arquivos. Os pacotes são usados para evitar conflitos de nomes e para escrever um código de melhor manutenção.
+      [x] Use imports e organize o seu código através de packages
   - Conhecer a java.lang
-  - Entender a imutabilidade e a classe String
+    [x] Entender a imutabilidade e a classe String
   - Entender a classe java.lang.Object
   - Conhecer a java.io
 - [ ] **Estruturas de Dados**:
@@ -117,15 +117,15 @@
 
 ## Habilidade Auxiliar: Infraestrutura
 
-- [ ] **Git e GitHub - Fundamentos**:
-  - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
-  - GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.
-  - Criar um repositório
-  - Clonar um repositório
-  - Fazer commit, push e pull de e para o repositório
-  - Reverter um commit
-  - Criar branches e pul requests
-  - Lidar com merge e conflitos
+- [x] **Git e GitHub - Fundamentos**:
+      [x] Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
+      [x] GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.
+      [x] Criar um repositório
+      [x] Clonar um repositório
+      [x] Fazer commit, push e pull de e para o repositório
+      [x] Reverter um commit
+      [x] Criar branches e pul requests
+      [x] Lidar com merge e conflitos
 - [ ] **HTTP - Fundamentos**:
   - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
   - Entender a diferença dos verbos HTTP

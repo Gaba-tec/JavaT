@@ -7,7 +7,6 @@ import java.util.HashMap;
 import Fundamentos.licoes.Aluno;
 import Fundamentos.licoes.test01;
 import Fundamentos.licoes.Calculo;
-import Fundamentos.Estrutura_Dados.Dynamic;
 import Fundamentos.Busca_Cep.Endereco;
 import Fundamentos.Busca_Cep.ServicoDeCep;
 import Fundamentos.Estrutura_Dados.*;
@@ -65,11 +64,9 @@ public class App {
 
         calculo.Fatorial(24);
 
-        List<List<Integer>> queries = Arrays.asList(Arrays.asList(1,0,5),
-                                        Arrays.asList(1,1,7),
-                                        Arrays.asList(1,0,3),
-                                        Arrays.asList(2,1,0),
-                                        Arrays.asList(2,1,1));
+        List<List<Integer>> queries = Arrays.asList(Arrays.asList(1,2,100),
+                                        Arrays.asList(2,5,100),
+                                        Arrays.asList(3,4,100));
 
         
         Dynamic dynamic = new Dynamic();
@@ -131,6 +128,7 @@ public class App {
 
         hashTestes.comparaLista(strings, querieStrings);
 
+        hashTestes.arrayManipulation(10, queries);
     }
     
 }

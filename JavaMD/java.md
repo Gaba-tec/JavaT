@@ -38,7 +38,7 @@
       [x] Saiba trabalhar com ArrayList, LinkedList ou Vector
       [x] Classes Wrappers
 - [ ] **Java - Testes**:
-  - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+      [x] O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
   - Usar testes unitários
   - Usar testes de integração
   - Usar testes de comportamento (behavior)

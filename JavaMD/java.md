@@ -31,12 +31,12 @@
       [x] Uso de 'try' e 'catch'
       [x] Criar exceções específicas
       [x] Fazer o processo de Debug
-- [ ] **Java - Coleções**:
+- [x] **Java - Coleções**:
       [x] Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
       [x] Aprender os usos e diferenças entre List, Set e Map
-  - Aprender os usos e diferenças entre Equals e HashCode
-  - Saiba trabalhar com ArrayList, LinkedList ou Vector
-  - Classes Wrappers
+      [x] Aprender os usos e diferenças entre Equals e HashCode
+      [x] Saiba trabalhar com ArrayList, LinkedList ou Vector
+      [x] Classes Wrappers
 - [ ] **Java - Testes**:
   - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
   - Usar testes unitários

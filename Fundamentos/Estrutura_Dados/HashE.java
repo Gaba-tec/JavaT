@@ -1,6 +1,8 @@
 package Fundamentos.Estrutura_Dados;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -37,35 +39,38 @@ public class HashE {
 
     public  long arrayManipulation(int n, List<List<Integer>> queries)
     {
-        Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+        Map<Integer,Long> map = new HashMap<Integer,Long>();
         long max = Integer.MIN_VALUE;
-        Map<Integer,Long> min = new HashMap<Integer,Long>();
 
-        /* 
-        for(int i = 1; i <= n; i++)
+        for(int i = 0; i < queries.size(); i++)
         {
-            map.put(i, 0);
-        }
-        */
-
-        for(int x = 0; x < queries.size(); x++)
-        {
-            int a = queries.get(x).get(0);
-            int b = queries.get(x).get(1);
-            int valueK = queries.get(x).get(2);
+            int a = queries.get(i).get(0);
+            int b = queries.get(i).get(1);
+            
+            
             while(a <= b)
             {
-                if(map.containsKey(a))valueK += map.get(a);
+                long k = queries.get(i).get(2);
 
-                map.put(a, valueK);
+                if(map.get(a) != null)
+                {
+                    k += map.get(a);
+                    map.put(a,k);
+                }
+                else
+                {
+                    map.put(a,k);
+                }
 
-                valueK = queries.get(x).get(2);
-
-                if(map.get(a) > max) max = map.get(a);
+                if(k > max)
+                {
+                    max = k;
+                }
 
                 a++;
             }
-
+           
+        
         }
 
         return max;
@@ -73,3 +78,21 @@ public class HashE {
     }
 
 }
+
+/*
+ for(int x = queries.get(i).get(0); x <= queries.get(i).get(1); x++)
+            {
+                long k = queries.get(i).get(2);
+
+                if(map.get(x) != null)
+                {
+                    k += map.get(x);
+                    map.put(x, k);
+                }
+                else
+                {
+                    map.put(x, k);
+                }
+                
+            }
+ */

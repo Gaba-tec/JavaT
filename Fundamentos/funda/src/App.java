@@ -64,10 +64,6 @@ public class App {
 
         calculo.Fatorial(24);
 
-        List<List<Integer>> queries = Arrays.asList(Arrays.asList(1,2,100),
-                                        Arrays.asList(2,5,100),
-                                        Arrays.asList(3,4,100));
-
         
         Dynamic dynamic = new Dynamic();
 
@@ -127,6 +123,11 @@ public class App {
         HashE hashTestes = new HashE();
 
         hashTestes.comparaLista(strings, querieStrings);
+
+
+         List<List<Integer>> queries = Arrays.asList(Arrays.asList(1,2,100),
+                                        Arrays.asList(2,5,100),
+                                        Arrays.asList(3,4,100));
 
         hashTestes.arrayManipulation(10, queries);
     }
